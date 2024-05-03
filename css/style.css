@@ -105,3 +105,73 @@ header h1{
     color: var(--color-naranja);
     font-size: 30px;
 }
+
+
+
+
+
+.foodmenu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.partarb{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.partarb p{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-naranja);
+    font-size: 30px;
+}
+.partarb h1{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-blanco);
+    font-size: 70px;
+}
+.etiquetas{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.etiquetas div{
+    background-color: var(--color-blanco);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    
+
+}
+.x{
+    background-color: var(--color-naranja);
+    position: absolute;
+    width: 40px;
+    margin-left:360px;
+    margin-top: -50px;
+}
+.eti1{
+    align-items: center;
+    text-align: center;
+}
+.eti1 h2{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-negro);
+    font-size: 30px;
+}
+.eti1 span{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-naranja);
+    font-size:20px;
+}
+.eti1 p{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-negro);
+    font-size:25px;
+}
