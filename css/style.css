@@ -175,3 +175,32 @@ header h1{
     color: var(--color-negro);
     font-size:25px;
 }
+.services{
+    margin-top: 200px;
+}
+.opcionesservicios{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.eti2{
+    align-items: center;
+    text-align: center;
+}
+.eti2 img{
+    width: 450px;
+}
+.eti2 h1{
+    color: var(--color-naranja);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+.eti2 p{
+    color: var(--color-blanco);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+}
