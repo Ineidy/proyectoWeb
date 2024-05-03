@@ -204,3 +204,39 @@ header h1{
     font-size: 30px;
 
 }
+.contentsearch{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.search{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--color-blanco);
+    width: 80%;
+    text-align: center;
+}
+.search h1{
+    margin-left: 170px;
+    color: var(--color-negro);
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+
+    font-size: 70px;
+}
+.search button{
+        border-color: var(--color-naranja);
+        color: var(--color-blanco);
+        background-color: var(--color-naranja);
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    
+
+}
